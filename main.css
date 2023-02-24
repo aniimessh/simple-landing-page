@@ -84,15 +84,40 @@ a{
     color: black;
     font-weight: bold;
     font-size: 60px;
+    font-family: 'Inter', sans-serif;
 }
 
 .sub-heading{
     color: #6C6C6C;
     font-size: 16px;
+    font-family: 'Inter', sans-serif;
 }
 
 .rating-line{
     color: #6C6C6C;
     padding-top: 10px;
     font-size: 17px;
+    font-family: 'Inter', sans-serif;
+}
+
+.trust-line{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.lines{
+    color: #6C6C6C;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.companies{
+    width: 60%;
+    margin:auto;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
 }
