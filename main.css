@@ -22,6 +22,7 @@
 .link{
     display: flex;
     text-indent: 20px;
+    width: 120%;
 }
 
 a{
@@ -42,6 +43,8 @@ a{
     border: none;
     cursor: pointer;
     font-size: 16px;
+    height: 50px;
+    /* width: 140px; */
 }
 
 .free{
@@ -120,4 +123,36 @@ a{
     display: flex;
     padding-top: 20px;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.burger-icon{
+    display: none;
+}
+
+@media (max-width:1024px) {
+    .wrapper{
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+    }
+    .hero-img{
+        display: none;
+    }
+    .left-text-section{
+        width: 100vw;
+    }
+    .navbar{
+        display: none;
+    }
+
+    .btn{
+        display: none;
+    }
+}
+
+@media (max-width:1024px){
+    .burger-icon{
+        display: block;
+    }
 }
